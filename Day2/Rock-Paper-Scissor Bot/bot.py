@@ -6,7 +6,7 @@ dict1 = {
     2: "scissors",
 }
 
-decider = [[True, False, True], [True, True, False], [False, True, True]]
+decider = [[1, 0, 1], [1, 1, 0], [0, 1, 1]]
 
 while True:
 
