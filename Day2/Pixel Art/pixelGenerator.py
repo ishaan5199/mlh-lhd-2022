@@ -32,3 +32,4 @@ def pixelGenerator(image, inputSize, outputSize, save):
 pixelGenerator("80smusic.jpg", (50, 50), (500, 500), False)
 pixelGenerator("miami.jpg", (100, 100), (2048, 1152), True)
 pixelGenerator("delorean.png", (80, 80), (3840, 2160), True)
+pixelGenerator("testarossa.jpg", (100, 100), (800, 420), True)
