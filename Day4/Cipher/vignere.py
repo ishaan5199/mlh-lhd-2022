@@ -24,7 +24,6 @@ def encrypt(ogText, key):
     
     return encrypted
 
-
 ogText = input("Enter the string to be encoded : ").upper()
 key = input("Enter the key for encoding : ").upper()
 
