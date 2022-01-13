@@ -15,15 +15,14 @@ for movie in movieList:
     
     if pagination >= 1:
         title = colored(movie.find("h3", class_ = "_hd").text, "green")
-        director = movie.find("li", class_ = "_mvdrc lclamp").text.split(" ")[1:]
+        director = " ".join(movie.find("li", class_ = "_mvdrc lclamp").text.split(" ")[1:])
         cast = movie.find("li", class_ = "lclamp").text
         release = movie.find("div", class_ = "_flx")
         genre = movie.find("li", class_ = "_mvgenre").text
         moreInfo = movie.find("a")["href"]
-        fullName = " ".join(director)
 
         print(f"\nTitle : {title.strip()}")
-        print(f"Director : {fullName}")
+        print(f"Director : {director}")
         print(f"Cast : {cast.strip()}")
         print(f"Genre : {genre.strip()}")
         actualRelease = colored(release.text if release else "TBD", "red")
