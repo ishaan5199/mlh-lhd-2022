@@ -6,11 +6,11 @@ dict1 = {
     2: "scissors",
 }
 
-decider = [[True, False, True], [True, True, False], [False, True, True]]
+decider = [[1, 0, 1], [1, 1, 0], [0, 1, 1]]
 
 while True:
 
-    # display ans test
+    # display and test
     action = int(input("\nChoose your weapon! rock[0], paper[1], scissors[2]...end[3]: "))
     if action == 3:
         print("\nThanks for playing :) Bbye\n")
