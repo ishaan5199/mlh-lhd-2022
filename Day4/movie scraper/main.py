@@ -9,7 +9,7 @@ soup = BeautifulSoup(html_text, "lxml");
 
 movieList = soup.find_all("div", class_ = "_mvbx _flx")
 
-print("\nUpcoming (Hollywood) films ->")
+print("\nUpcoming films ->")
 
 for movie in movieList:
     
