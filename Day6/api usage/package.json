@@ -1,0 +1,20 @@
+{
+  "name": "reelbot",
+  "version": "1.0.0",
+  "description": "discord bot that provides info related to movies and tv shows",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ishaan Mahesh",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^12.0.3"
+  }
+}
